@@ -1,0 +1,204 @@
+#box{
+    height: 300px;
+    width: 300px;
+    border: 5px dotted white;
+    margin: 50px 0px 0px 530px;
+}
+
+#inputss{
+    margin-left: 540px;
+    margin-top: 20px;
+}
+
+#clr{
+    margin-left: 100px
+}
+
+.navbar{
+    background-color:black;
+    height: 100px;
+    margin-top: -20px;
+    margin-left: -20px;
+    
+}
+
+ul{
+    color: white;
+    padding-top: 40px;
+    
+}
+
+li{
+    margin-top: 20px;
+    list-style: none;
+    display: unset;
+    margin-left: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+video{
+    height: 500px;
+    width: 1200;
+}
+
+.bg-video {
+    height: 890px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -100px;
+    margin-left: -12px;
+}
+
+h1{
+    color: bisque;
+    font-size:100px;
+    margin-left: 500px;
+}
+
+.unv{
+    color:b;
+
+}
+
+.newnav{
+    margin-left: 300px;
+}
+ul{
+    list-style: none;
+}
+
+
+.container{
+    background-color: black;
+    height: 950px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+#img1{margin-top: 30px;
+    height: 250px;
+    margin-left:100px;
+}
+
+#img1:hover{
+    height: 280px;
+    border: 10px solid white;
+}
+#img2{
+    margin-left: 50px;
+    height: 250px;
+}
+
+#img2:hover{
+    height: 280px;
+    border: 10px solid white;
+}
+#img3{
+    margin-left: 100px;
+    height: 250px;
+}
+#img3:hover{
+    height: 280px;
+    border: 10px solid white;
+}
+h2{
+    color: wheat;
+    margin-left: 600px;
+    padding-top: 20px   ;
+}
+
+#text{
+    color: wheat;
+    margin-top: 30px;
+    margin-left: 300px;
+    display: block;
+}
+p{
+    margin-left: 300px;
+    color: wheat;
+}
+
+#buttons{
+    color:wheat;
+    
+}
+
+#btn1{
+    margin-left: 240px;
+    border: 2px solid wheat;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#btn2{
+    margin-left: 240px;
+    border: 2px solid wheat;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#btn3{
+    margin-left: 300px;
+    border: 2px solid wheat;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nebulla{
+    margin-left: 450px;
+}
+
+#nbl-img{
+    height: 300px;
+}
+
+#rednbl{
+    margin-left: 180px;
+    border: 2px solid wheat;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#bluenbl{
+    margin-left: 240px;
+    border: 2px solid wheat;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#blacknbl{
+    margin-left: 200px;
+    border: 2px solid wheat;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#addimg-txt{
+    color:black;
+    background-color: rgb(22, 62, 172);
+    font-size: 50px;
+    margin-left: 400px;
+  
+    font-family:monospace;
+}
+
+.footer{
+background-color: black;
+height: 150px;
+margin: -10px 0px -10px -10px;
+}
+
+#last-txt{
+    color: rgb(208, 134, 37);
+    font-size: 50px;
+    margin-top: 100px;
+    padding-top: 50px;
+    margin-left: 500px;
+}

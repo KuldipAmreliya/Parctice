@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Universe Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="navbar">
+        <nav>
+
+            <ul><i class="fa-solid fa-earth-africa"></i>
+                <span class="unv">Universe Web</span>
+                <span class="newnav">
+                    <li>Earth</li>
+                    <li>Home</li>
+                    <li>History</li>
+                    <li>Planets</li>
+                    <li>Nebula</li>
+                    <li>BlackHole</li>
+                </span>
+            </ul>
+        </nav>
+    </div>
+
+
+    <video autoplay loop muted plays-inline class="bg-video">
+        <source src="https://cdn.pixabay.com/video/2024/06/07/215697_tiny.mp4" type="video/mp4">
+    </video>
+    <h1>
+        Universe is <br> Full of <br>Secrets
+    </h1>
+    <br>
+
+    <br>
+
+    <div class="container">
+        <h2>Here is Some Images</h2>
+        <img src="https://img.freepik.com/free-photo/galaxy-night-view_23-2148895302.jpg?ga=GA1.1.424337017.1735465443&semt=ais_hybrid&w=740"
+            alt="" id="img1">
+
+        <img src="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="" id="img2">
+        <img src="https://images.pexels.com/photos/586056/pexels-photo-586056.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="" id="img3">
+        <span id="buttons">
+
+            <br>
+            <buttton id="btn1" onclick="blackhole()">BlackHole</buttton>
+            <buttton id="btn2" onclick="earth()">Earth</buttton>
+            <buttton id="btn3" onclick="satelight()">Satelight</buttton>
+        </span>
+
+
+        <span id="text">
+            <p>Get Details Here</p>
+        </span>
+        <br><br>
+        <span class="nebulla">
+            <img src="https://img.freepik.com/free-photo/colorful-abstract-universe-textured-background_53876-105269.jpg?ga=GA1.1.424337017.1735465443&semt=ais_hybrid&w=740"
+                id="nbl-img">
+            <br> <br><br><br> <button id="rednbl" onclick="rednbl()">Red Nebulla</button>
+            <button id="bluenbl" onclick="bluenbl()">Blue Nebula</button>
+            <button id="blacknbl" onclick="blacknbl()">Black Nebulla</button>
+        </span>
+
+    </div>
+
+    <video autoplay loop muted plays-inline class="bg-video">
+        <source src="https://cdn.pixabay.com/video/2019/05/30/24081-339549380_tiny.mp4" type="video/mp4">
+        something is not good .
+    </video>
+    <br><br><br><br>
+    <span id="addimg-txt">Add any Images Here</span>
+    <div id="box">
+        <img src="https://i.pinimg.com/736x/33/63/21/3363219f117127d8423bc28d88043425.jpg"
+            height="300px" width="300px" id="image">
+    </div>
+
+    <form id="inputss">
+        <input type="text" id="imgInput" placeholder="Add your image" />
+        <button type="button" onclick="forimage()">Your Image</button><br><br>
+
+        <input type="text" id="hInput" placeholder="Height" />
+        <button type="button" onclick="forheight()">New Height</button><br><br>
+
+        <input type="text" id="wInput" placeholder="Width" />
+        <button type="button" onclick="forwidth()">New Width</button><br><br>
+
+        <button type="button" onclick="clearInputs()" id="clr">Clear</button>
+    </form>
+    <div class="footer"><br><br>
+        <span id="last-txt">Thanks for reviewing <i class="fa-regular fa-face-smile-wink"></i></span>
+    </div>
+</body>
